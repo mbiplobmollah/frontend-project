@@ -14,6 +14,7 @@ function Home(){
 
     return(
         <div className="home">
+            <h1>This is movie project</h1>
           <form onSubmit={handleSearch} className="search-form">
             <input type="text" placeholder="Search For Movies..." className="search-input"/>
             </form> 
