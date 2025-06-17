@@ -1,5 +1,6 @@
 import MovieCard from "../components/MovieCard/MovieCard"
 import { useState } from "react"
+import '../css/Home.css'
 
 function Home(){
 
@@ -19,7 +20,6 @@ function Home(){
 
     return(
         <div className="home">
-            <h1>This is movie project</h1>
           <form onSubmit={handleSearch} className="search-form">
             <input type="text" placeholder="Search For Movies..." className="search-input" value={searchQuery} onChange={(e)=>{setSearchQuery(e.target.value)}}/>
             <button type="submit" className="search-button">Search</button> 
